@@ -1,12 +1,44 @@
-# React + Vite
+# Swastik International
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Swastik International is a React + Vite website for presenting the company's trade, sourcing, and export services across medical, agro, and industrial sectors.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- React Router
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+.
+├─ public/
+├─ scripts/
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ lib/
+│  └─ pages/
+├─ index.html
+├─ package.json
+└─ vite.config.js
+```
+
+## Available Scripts
+
+- `npm install` installs dependencies.
+- `npm run dev` starts the local development server.
+- `npm run build` creates the production build.
+- `npm run preview` previews the production build locally.
+- `npm run lint` runs ESLint.
+
+## Deployment
+
+Build the project with:
+
+```bash
+npm run build
+```
+
+The production-ready files are generated in `dist/`.
